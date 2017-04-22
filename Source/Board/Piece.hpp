@@ -1,6 +1,10 @@
+// Copyright 2017 <Abhi Agarwal>
 #pragma once
 
-enum class piece : char {
+enum class Piece : char {
   Blank = '0',
-  X = 'X'
+  Marked = 'X',
+  Eliminate = '-'
 };
+
+using piece_t = Piece;
